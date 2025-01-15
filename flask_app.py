@@ -1,10 +1,10 @@
 
 """
 Write a python script which launches a server locally for an html file which has a big text box. When i enter text into that box and press submit, it should send that request to
-the {ollama_model api}, take the resulting code, save it to a temporary file on the desktop,  then execute that file in a new python terminal.
+the {ollama_model_api},will take the resulting code, save it to a temporary file on the desktop,  then execute that file in a new python terminal.
 A few more details:
-. please add some extra prompting into the request to the api to specify that it should only return raw code without any formatting or markdown at all.
-. you'll be executing on a Windows PC.
+1. please add some extra prompting into the request to the api to specify that it should only return raw code without any formatting or markdown at all.
+2. You'll be executing on a Windows PC.
 
 
 """
